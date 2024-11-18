@@ -1,0 +1,5 @@
+X = int(input())
+Amount1 = X - (0.1 * X)
+Amount2 = X - 100
+Amount_to_pay = min(Amount1, Amount2)
+print(int(Amount_to_pay))
